@@ -14,5 +14,5 @@ if [ $? -ne 0 ]
 then    
     echo "Failure"
 else
-    echo :Sucess"
+    echo "Sucess"
 fi 
