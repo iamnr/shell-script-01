@@ -2,6 +2,6 @@
 
 PERSONS=("Ramesh" "Suresh" "Sachin")
 
-echo "First Person :$(PERSONS[0])"
+echo "First Person :${PERSONS[0]}"
 
-echo "All persons :$(PERSONS[@])"
+echo "All persons :${PERSONS[@]}"
