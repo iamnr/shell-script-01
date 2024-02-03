@@ -12,7 +12,7 @@ then
     exit 1
 fi
 
-FILES_TO_DELETE(find $LOGDIR -name "*.log" type -f -mtime +14)
+FILES_TO_DELETE=$(find $LOGDIR -name "*.log" type -f -mtime +14)
 
 while read line
 do
