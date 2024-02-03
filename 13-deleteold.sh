@@ -17,5 +17,5 @@ FILES_TO_DELETE=$(find $LOGDIR -name "*.log" -type f -mtime +14)
 while read line
 do
     echo "Deleting $line" &>>$LOGFILE
-    rm -rf $LINE
+    rm -rf $line
 done <<< $FILES_TO_DELETE
