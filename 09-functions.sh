@@ -28,3 +28,6 @@ VALIDATE(){
 yum install nginx -y &>>$LOGFILE
 VALIDATE $? "Installing Nginx"
 
+yum install mysql -y &>>$LOGFILE
+VALIDATE $? "Installing MySQL"
+
