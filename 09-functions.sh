@@ -6,7 +6,7 @@ LOGFILE=/home/centos/log_dir/$SCRIPT_NAME+$DATE.log
 
 USERID=$(id -u)
 
-if [ USERID -ne 0 ]
+if [ $USERID -ne 0 ]
 then    
     echo "Run with root access"
     exit 1
